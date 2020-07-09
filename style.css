@@ -1,3 +1,21 @@
 .header {
   float: right;
 }
+
+.body {
+  text-align: center;
+  padding: 190px;
+}
+
+img {
+  width: 272px;
+}
+
+.regular {
+  margin: 25px;
+  width: 55%;
+  height: 36px;
+  border-color: lightgrey;
+  border-style: solid;
+  border-radius: 20px;
+}
