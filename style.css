@@ -13,9 +13,11 @@ img {
 
 .regular {
   margin: 25px;
-  width: 55%;
-  height: 36px;
+  width: 52%;
+  height: 1px;
   border-color: lightgrey;
   border-style: solid;
-  border-radius: 20px;
+  border-radius: 25px;
+  outline: none;
+  padding: 20px;
 }
