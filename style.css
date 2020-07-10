@@ -21,3 +21,12 @@ img {
   outline: none;
   padding: 20px;
 }
+
+.submit {
+  padding: 10px;
+  border: none;
+  width: 130px;
+  color: #505050;
+  border-radius: 5px;
+  margin: 3px;
+}
