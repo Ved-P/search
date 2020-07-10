@@ -8,10 +8,42 @@
     <div class="header">
       <a href="index.html">Google Search</a>
     </div>
-    <div class="body">
+    <div id="advanced-body">
       <form action="https://google.com/search">
-        <input type="text" name="q">
-        <input class="submit" type="submit" value="Google Search">
+        <table>
+          <thead>
+            <tr>
+              <th style="font-weight:normal;">Find pages with...</th>
+              <th></th>
+              <th><b>To do this in the search box</b></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>all these words:</td>
+              <td><input class="advanced-input" type="text" name="q"></td>
+              <td>Type the important words:  <code>tricolor rat terrier</code></td>
+            </tr>
+            <tr>
+              <td>this exact word or phrase:</td>
+              <td><input class="advanced-input" type="text" name="q"></td>
+              <td>Put exact words in quotes:  <code>"rat terrier"</code></td>
+            </tr>
+            <tr>
+              <td>any of these words:</td>
+              <td><input class="advanced-input" type="text" name="q"></td>
+              <td>Type OR between all the words you want:  <code>miniature OR standard</code></td>
+            </tr>
+            <tr>
+              <td>none of these words:</td>
+              <td><input class="advanced-input" type="text" name="q"></td>
+              <td>Put a minus sign just before words you don't want:  <code>-rodent, -"Jack Russell"</code></td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="text-align: center;">
+          <input style="background-color:#3388FF;color:white;" class="submit" type="submit" value="Advanced Search">
+        </div>
       </form>
     </div>
   </body>

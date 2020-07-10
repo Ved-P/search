@@ -37,3 +37,32 @@ a {
   text-decoration: none;
   color: #505050;
 }
+
+table {
+  width: 80%;
+  margin: 20px;
+}
+
+td, th {
+  padding: 10px;
+}
+
+tr>:nth-child(1) {
+  width: 20%;
+}
+
+tr>:nth-child(2) {
+  width: 50%;
+}
+
+tr>:nth-child(3) {
+  width: 30%;
+}
+
+.advanced-input {
+  width: 90%;
+}
+
+#advanced-body {
+  color: #505050;
+}
