@@ -46,6 +46,7 @@ table {
 td, th {
   padding: 10px;
   text-align: left;
+  font-size: 12px;
 }
 
 tr>:nth-child(1) {
