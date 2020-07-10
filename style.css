@@ -1,5 +1,6 @@
 .header {
   float: right;
+  padding: 20px;
 }
 
 .body {
@@ -22,11 +23,17 @@ img {
   padding: 20px;
 }
 
-.submit {
+.submit, a {
   padding: 10px;
   border: none;
   width: 130px;
   color: #505050;
   border-radius: 5px;
   margin: 3px;
+}
+
+a {
+  background-color: #F0F0F0;
+  text-decoration: none;
+  color: #505050;
 }
