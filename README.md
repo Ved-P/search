@@ -1,4 +1,4 @@
-# Google!
+# Search!
 
 A front end site similar to Google in which you can search Google, Google Images, and Google Advanced Search.
 
