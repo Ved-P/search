@@ -7,4 +7,5 @@ This is a site that takes in input from the user and submits it to Google to sho
 If any copyright issues do arise, this project was assigned by Harvard's CS50 Web Design course on Edx, and was not my idea. I give all the design credit to Google.
 
 Started: Tuesday, July 7, 2020.
-Published: To Be Published.
+
+Published: Friday, July 10, 2020.
