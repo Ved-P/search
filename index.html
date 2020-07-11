@@ -13,11 +13,16 @@
       <img src="GoogleLogo.png" alt="Google">
       <form action="https://google.com/search">
         <input class="regular" type="text" name="q">
-        <input type="hidden" name="btnI">
+        <input id="btnI" type="hidden" name="">
         <br>
         <input class="submit" type="submit" value="Google Search">
-        <input class="submit" type="submit" value="I'm Feeling Lucky">
+        <input onclick="addBTNI()" class="submit" type="submit" value="I'm Feeling Lucky">
       </form>
     </div>
+    <script>
+      function addBTNI() {
+        document.getElementById("btnI").setAttribute("name", "btnI");
+      }
+    </script>
   </body>
 </html>
